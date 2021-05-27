@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "TaxiDriver";
+    src: url("../fonts/TaxiDriver.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -32,10 +37,16 @@ section:nth-child(odd) {
     background-color: #cae1f1;
 }
 
+main {
+    font-size: 20px;
+}
+
 section {
     display: grid;
     justify-content: center;
     align-content: center;
+    font-family: "TaxiDriver";
+    font-size: 1em;
 }
 
 section:nth-child(even) {
