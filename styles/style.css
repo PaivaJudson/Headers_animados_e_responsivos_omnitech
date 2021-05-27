@@ -27,6 +27,22 @@ header {
     width: 320px;
 }
 
+section:nth-child(odd) {
+    height: 100vh;
+    background-color: #cae1f1;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+section:nth-child(even) {
+    height: 100vh;
+    background-color: #b7d5eb;
+}
+
 .x {
     border: 2px solid red;
 }
